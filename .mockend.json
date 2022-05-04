@@ -1,0 +1,27 @@
+{
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  },
+
+  "User": {
+    "body": { "string": {} }
+  },
+
+  "Person": {
+    "body": { "string": {} }
+  },
+
+  "City": {
+    "body": { "string": {} }
+  }
+}
